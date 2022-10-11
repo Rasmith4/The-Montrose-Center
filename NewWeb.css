@@ -1,0 +1,1288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif; 
+}
+
+
+.headbanner{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Prideflagbackground.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.headbannertext{
+    padding-top: 150px;
+    padding-left: 150px;
+    Margin-right: 50px;
+    margin-left: 50px;
+}
+.headbannertextred{
+    text-align: left;
+    font-weight: 600;
+    font-size: 100pt;
+    color: white;
+    line-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    display: inline-block;
+    padding-right: 5px;
+    transition: 0.5s;
+}
+.headbannertextred:hover{
+    text-align: left;
+    font-weight: 600;
+    font-size: 110pt;
+    color: red;
+    line-height: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    transition: 0.5s;
+    padding-right: 0px;
+}
+.headbannertextorange{
+    text-align: left;
+    font-weight: 600;
+    font-size: 100pt;
+    color: white;
+    line-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    display: inline-block;
+    padding-right: 5px;
+    transition: 0.5s;
+}
+.headbannertextorange:hover{
+    text-align: left;
+    font-weight: 600;
+    font-size: 110pt;
+    color: orange;
+    line-height: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    transition: 0.5s;
+    padding-right: 0px;
+}
+.headbannertextyellow{
+    text-align: left;
+    font-weight: 600;
+    font-size: 100pt;
+    color: white;
+    line-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    display: inline-block;
+    padding-right: 5px;
+    transition: 0.5s;
+}
+.headbannertextyellow:hover{
+    text-align: left;
+    font-weight: 600;
+    font-size: 110pt;
+    color: yellow;
+    line-height: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 0;
+     transition: 0.5s;
+    padding-right: 0px;
+}
+.headbannertextgreen{
+    text-align: left;
+    font-weight: 600;
+    font-size: 100pt;
+    color: white;
+    line-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    display: inline-block;
+    padding-right: 5px;
+    transition: 0.5s;
+}
+.headbannertextgreen:hover{
+    text-align: left;
+    font-weight: 600;
+    font-size: 110pt;
+    color: green;
+    line-height: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 0;
+     transition: 0.5s;
+    padding-right: 0px;
+}
+.headbannertextblue{
+    text-align: left;
+    font-weight: 600;
+    font-size: 100pt;
+    color: white;
+    line-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    display: inline-block;
+    padding-right: 5px;
+    transition: 0.5s;
+}
+.headbannertextblue:hover{
+    text-align: left;
+    font-weight: 600;
+    font-size: 110pt;
+    color: blue;
+    line-height: 100px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    transition: 0.5s;
+    padding-right: 0px;
+}
+.headbannertextpurple{
+    text-align: left;
+    font-weight: 600;
+    font-size: 100pt;
+    color: white;
+    line-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    display: inline-block;
+    padding-right: 5px;
+    transition: 0.5s;
+}
+.headbannertextpurple:hover{
+    text-align: left;
+    font-weight: 600;
+    font-size: 110pt;
+    color: purple;
+    line-height: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 0;
+     transition: 0.5s;
+    padding-right: 0px;
+}
+
+
+.headbannertext h2{
+    text-align: left;
+    font-weight: 100;
+    font-size: 30pt;
+    color: white;
+}
+
+
+nav{
+    padding-top: 70px;
+    Margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1%;
+}
+nav img{
+    width: 100px;
+    
+}
+.logolayer{
+    position: absolute;
+    opacity: 0;
+    width: 100px;
+    transition: 0.5s
+}
+.logolayer:hover{
+    width: 100px;
+    opacity: 100;
+}
+
+.nav-links{
+    text-align: right;    
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 1;
+}
+.nav-links ul li a:hover{
+    color: pink;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 1;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: pink;
+    display: block;
+    margin: auto;
+    transition: 0.5s
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.nav-linkspink{
+    flex: 1;
+    text-align: right;    
+}
+.nav-linkspink ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-linkspink ul li a{
+    color: pink;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-linkspink ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: pink;
+    display: block;
+    margin: auto;
+    transition: 0.5s
+}
+.nav-linkspink ul li:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+
+
+.aboutbanner{
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+
+
+
+.ourmissionrow{
+    text-align: center;
+    justify-content: center;
+}
+.ourmission2 {
+    margin-right: 200px;
+    margin-left: 200px;
+    background: pink;
+    height: 20vh;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-bottom: 30px;  
+}
+.ourmission2:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 90vh;
+    background-image: url(gradientnew-01.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.ourmission2 h1{
+    padding-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+    color: white;
+    font-weight: 10;
+    font-size: 40px;
+    transition: 0.5s;
+    padding-bottom: 70px;
+}
+.ourmission2:hover h1{
+    padding-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+    color: white;
+    font-weight: 10;
+    font-size: 45px;
+    padding-bottom: 70px;
+} 
+.ourmission2 p{
+    padding-top: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: white;
+    font-weight: 50;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    transition: 0.5s;
+    padding-bottom: 50px;
+} 
+.ourmission2:hover p{
+    padding-top: 0px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+    font-weight: 50;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    transition: 0.5s;
+
+}
+.ourmission2 h2{
+    margin-left: 100px;
+    text-align: left;
+    color: white;
+    font-weight: 10;
+    font-size: 30px;
+}
+.ourmission2 h3{
+    margin-left: 100px;
+    text-align: left;
+    color: white;
+    font-weight: 10;
+    font-size: 20px;
+} 
+.ourmission2:hover h2{
+    margin-left: 100px;
+    text-align: left;
+    color: white;
+    font-weight: 10;
+    font-size: 30px;
+}
+.ourmission2:hover h3{
+    margin-left: 100px;
+    text-align: left;
+    color: white;
+    font-weight: 10;
+    font-size: 20px;
+} 
+
+
+
+
+
+
+
+
+.ourmission3 {
+    margin-right: 200px;
+    margin-left: 200px;
+    background: pink;
+    height: 20vh;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-bottom: 30px;  
+}
+.ourmission3:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 225vh;
+    background-image: url(gradientnew-01.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.ourmission3 h1{
+    padding-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+    color: white;
+    font-weight: 10;
+    font-size: 40px;
+    transition: 0.5s;
+    padding-bottom: 70px;
+}
+.ourmission3:hover h1{
+    padding-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+    color: white;
+    font-weight: 10;
+    font-size: 45px;
+    padding-bottom: 70px;
+} 
+.ourmission3 p{
+    padding-top: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: white;
+    font-weight: 50;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    transition: 0.5s;
+    padding-bottom: 50px;
+} 
+.ourmission3:hover p{
+    padding-top: 0px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+    font-weight: 50;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    transition: 0.5s;
+
+}
+.ourmission3 h2{
+    margin-left: 100px;
+    text-align: left;
+    color: white;
+    font-weight: 10;
+    font-size: 30px;
+}
+.ourmission3 h3{
+    margin-left: 100px;
+    text-align: left;
+    color: white;
+    font-weight: 10;
+    font-size: 20px;
+} 
+.ourmission3:hover h2{
+    margin-left: 100px;
+    text-align: left;
+    color: white;
+    font-weight: 10;
+    font-size: 30px;
+}
+.ourmission3:hover h3{
+    margin-left: 100px;
+    text-align: left;
+    color: white;
+    font-weight: 10;
+    font-size: 20px;
+} 
+
+
+.LearnMore-btn{
+    display: inline-block;
+    margin-top: 1%;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    cursor: pointer;
+    border: 5px solid white;
+    background: transparent;
+    padding: 9px 16px;
+    transition: 1s; 
+    color: white;
+}
+.LearnMore-btn:hover{
+    border: 5px solid pink;
+    background: pink;
+    padding: 9px 16px;
+    transition: 1s; 
+    color: #6b4c41;
+}
+
+
+nav .fa{
+    display: none;
+}
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+        
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+        
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+        }
+    
+        
+}
+
+/*----Our community----*/
+
+.row{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    
+    
+    
+    
+   
+}
+.course-col{
+    position: center;
+    flex-basis: 31%;
+    background-image: url(ourcommunity1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;  
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.Events{
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding-top: 75px;
+    height: 60vh;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-bottom: 50px;
+    
+}
+.Events h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: pink;
+    
+}
+
+/* Campus */
+
+.campus{
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding-top: 75px;
+    height: 110vh;
+    padding-right: 200px;
+    padding-left: 200px;
+    
+}
+
+.campus h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: pink;
+    
+}
+
+.campus-col{
+    flex-basis: 31%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s
+}
+.campus-col:hover{
+    flex-basis: 31%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    transition: 0.5s;
+    
+}
+.campus-col img{
+    width: 100%;
+    height: 110%;
+    display: block;
+    
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    
+}
+.layer div{
+    background: pink;
+    height: 70px;
+    margin-top: 210px;
+    transition: 0.5s;
+    
+    
+}
+}
+.layer:hover{
+    height: 100%;
+    
+}
+
+.layer:hover div{
+    background: pink;
+    height: 100%;
+    margin-top: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+    
+}
+.layer li{
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    list-style: none;
+    margin-bottom: 25px;
+    
+}
+.layer a{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+}
+.layer:hover li{
+    bottom: 10%;
+    opacity: 1;
+}
+.readmore-btn{
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+    background: transparent;
+    position: center;
+    cursor: pointer;
+    
+}
+  
+.layer h3{
+    width: 100%;
+    font-weight: 250;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    position: absolute;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 50%;
+    opacity: 1;
+    
+}
+.layer p{
+    width: 70%;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    font-size: 8px;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.layer:hover p{
+    bottom: 30%;
+    opacity: 1;}
+
+
+
+
+
+
+/* cta */
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    
+}
+
+.cta h1{
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media(max-width: 700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: pink;
+    height: 75px;
+    display: inline-block;
+}
+.footer img{
+    padding-bottom: 10px;
+    width: 100px;
+    float:left;
+    padding-left: 200px;
+}
+
+.footer li{
+    list-style: none;
+    padding: 8px 12px;
+    float: right;
+    margin-right: 200px;
+    
+    
+}
+.footer li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 10;
+    
+    
+}
+.footer p{
+    margin-bottom: 25px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* donate */
+.donate{
+    height: 300px;
+    background: #8cd1a8;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right:200px;
+    transition: 0.5s;
+    
+    
+   
+    
+}
+.donate:hover{
+    height: 300px;
+    background: #8cd1a8;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right:200px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    transition: 0.5s;
+    
+}
+.donate-row{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    overflow: hidden;
+    
+}
+.donate-col{
+    flex-basis: 50%;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 50px;
+}
+.donate-col h2{
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+    padding-bottom: 10px;
+}
+.donate-col2{
+    flex-basis: 50%;
+    width: 100%;
+    background-image: url(Doodle-01.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.donate-col2 img{
+    height: 300px;
+    width: 500px;
+    
+}
+
+.donate p{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin-right: 100px;
+    padding-bottom: 15px;
+    font-family: 'poppins', sans-serif;
+  
+
+    
+}
+
+.donate-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    cursor: pointer;
+    background: transparent;
+    overflow: hidden;
+}
+.donate-btn:hover{
+    border: 1px solid white;
+    transition: .5s; 
+    color: #8cd1a8;
+    background: white;
+}
+    
+
+
+
+
+
+/* about page */
+.servicesblock{
+    height: 275px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.servicesblock img{
+    height: 275px;
+    float: right;
+}
+.serviceslayer{
+    background: pink;
+    height: 275px;
+    width: 700px;
+    transition: 0.5s;
+    position: absolute; 
+    transition: 0.5s;
+    
+}
+.serviceslayer:hover{
+    width: 800px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.serviceslayer h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 120px;
+    transition: 0.5s;
+}
+.serviceslayer:hover h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 70px;
+    transition: 0.5s;
+}
+.serviceslayer p{
+    color: pink;
+    font-family: 'poppins', sans-serif;
+    font-weight: 100;
+    font-size: 1px;
+    margin-left: 50px;
+    position: absolute;
+    margin-right: 400px;
+}
+.serviceslayer:hover p{
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 100px;
+    position: absolute;
+    margin-right: 200px;
+}
+    
+    
+.container{
+    Width: 100;
+    height: 100%;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.container:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;  
+}
+.field{
+    width: 100%;
+    outline: none;
+    border: 1px solid pink;
+    background-color: pink;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: 0.5s;
+    color: white;
+}
+.field:focus{
+    border: 4px solid pink;
+}
+.field:hover{
+     border: 4px solid pink;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: pink;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+    transition: 0.5s;
+}
+input[type=submit]:hover {
+    Border: 2px solid pink;
+    padding: 10px 18px;
+    background: white;
+    color: pink;
+    transition: 0.5s;
+    
+}
+.field::placeholder {
+    color: white;
+    opacity: 50%;
+   
+}
+.container label{
+    color: pink;
+}
+
+
+
+
+
+.Donatelayer{
+    background: #8cd1a8;
+    height: 275px;
+    width: 700px;
+    transition: 0.5s;
+    position: absolute; 
+    transition: 0.5s;
+}
+.Donatelayer:hover{
+    width: 800px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Donatelayer h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 120px;
+    transition: 0.5s;
+}
+.Donatelayer:hover h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 70px;
+    transition: 0.5s;
+}
+.Donatelayer p{
+    color: pink;
+    font-family: 'poppins', sans-serif;
+    font-weight: 100;
+    font-size: 1px;
+    margin-left: 50px;
+    position: absolute;
+    margin-right: 400px;
+}
+.Donatelayer:hover p{
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 100px;
+    position: absolute;
+    margin-right: 200px;
+}
+
+.donate2-col{
+    flex-basis: 30%;
+    justify-content: center;
+    position: center;
+}
+.donate2-col h1{
+    color: white;
+    font-size: 30px;
+}
+.donate2-col img{
+    width: 100%;
+}
+.donate2-row{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.donate3-col{
+    flex-basis: 50%;
+    position: center;
+    text-align: left;
+    margin-right: 150px;
+}
+.donate3-col img{
+    height: 200px;
+    float: right;
+}
+
+.donate4-col{
+    flex-basis: 50%;
+    position: center;
+    text-align: left;
+}
+
+
+
+.ourdonate{
+    margin-right: 200px;
+    margin-left: 200px;
+    background: #8cd1a8 ;
+    height: 25vh;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-bottom: 100px;
+}
+.ourdonate h1{
+    padding-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+    color: white;
+    font-weight: 10;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.ourdonate p{
+    padding-top: 0px;
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 20vh;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    transition: 0.5s;
+} 
+
+
+.ourdonaterow{
+    margin-right: 200px;
+    margin-left: 200px;
+    background: #8cd1a8;
+    height: 20vh;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    text-align: center;
+    
+    
+}
+.ourdonaterow:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.ourdonaterow h1{
+    color: white;
+    padding-top: 50px;
+    font-size: 45px;
+}
+.ourdonaterow h2{
+    padding-top: 50px;
+    Color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+    font-weight: 600;
+     transition: 0.5s;
+}
+.ourdonaterow:hover h2{
+    padding-top: 20px;
+    Color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.ourdonaterow p{
+    padding-top: 10px;
+    Color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+
+
+.ourdonaterow2 h1{
+    color: white;
+    padding-top: 50px;
+    font-size: 45px;
+}
+.ourdonaterow2 h2{
+    padding-top: 50px;
+    Color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+    font-weight: 600;
+     transition: 0.5s;
+}
+.ourdonaterow2:hover h2{
+    padding-top: 20px;
+    Color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.ourdonaterow2 p{
+    padding-top: 10px;
+    Color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+.ourdonaterow2{
+    margin-right: 200px;
+    margin-left: 200px;
+    background: #8cd1a8;
+    height: 20vh;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    text-align: center;  
+}
+.ourdonaterow2:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
